@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    background: lightgreen;
+  }
+  
+  .one {
+    background: turquoise;
+    padding: 2rem;
+    border: 1px solid black;
+    font-size: 20pt;  
+    text-align: center;
+    color: yellow;
+    margin: 3rem;
+  }
+  
+  aside {
+    border: 2px solid black;
+    padding: 1rem;
+    color: lightblue;
+    background: brown;
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-gap: 1rem;
+    
+  } 
+  
+  div {
+    border: 0.5rem solid blue;
+  }
